@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+        body { background-color: #080808; color: #fff; font-family: 'Space Grotesk', sans-serif; }
+    </style>
+</head>
+<body>
+    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto uppercase tracking-widest text-[10px]">
+        <a href="index.html" class="font-bold text-lg">YOUR NAME</a>
+        <div class="space-x-6 hidden md:flex">
+            <a href="direction.html" class="hover:text-zinc-400">Direction</a>
+            <a href="cinematography.html" class="text-white border-b border-white">Cinematography</a>
+            <a href="videography.html" class="hover:text-zinc-400">Videography</a>
+            <a href="photography.html" class="hover:text-zinc-400">Photography</a>
+            <a href="contact.html" class="hover:text-zinc-400">Contact</a>
+        </div>
+    </nav>
+
+    <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-6xl font-bold mb-12 tracking-tighter uppercase text-zinc-800">Cinematography</h2>
+        <div class="video-container mb-20 max-w-4xl mx-auto">
+            <iframe class="w-full aspect-video rounded-3xl shadow-2xl shadow-white/5" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600" class="aspect-video object-cover rounded-xl grayscale hover:grayscale-0 transition">
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600" class="aspect-video object-cover rounded-xl grayscale hover:grayscale-0 transition">
+            <img src="https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?w=600" class="aspect-video object-cover rounded-xl grayscale hover:grayscale-0 transition">
+            <img src="https://images.unsplash.com/photo-1492691523567-6170c2485fa8?w=600" class="aspect-video object-cover rounded-xl grayscale hover:grayscale-0 transition">
+        </div>
+    </section>
+</body>
+</html>

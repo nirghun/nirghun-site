@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | [Your Name]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+        body { background-color: #080808; color: #fff; font-family: 'Space Grotesk', sans-serif; }
+        .brand-logo { filter: brightness(0) invert(1); opacity: 0.4; width: 110px; transition: 0.3s; }
+        .brand-logo:hover { opacity: 1; }
+    </style>
+</head>
+<body>
+    <!-- Shared Nav -->
+    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto uppercase tracking-widest text-[10px]">
+        <a href="index.html" class="font-bold text-lg">YOUR NAME</a>
+        <div class="space-x-6 hidden md:flex">
+            <a href="direction.html" class="hover:text-zinc-400">Direction</a>
+            <a href="cinematography.html" class="hover:text-zinc-400">Cinematography</a>
+            <a href="videography.html" class="hover:text-zinc-400">Videography</a>
+            <a href="photography.html" class="hover:text-zinc-400">Photography</a>
+            <a href="contact.html" class="text-white border border-white px-4 py-1 rounded-full">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero / About -->
+    <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h1 class="text-7xl font-bold mb-6">DIRECTOR.</h1>
+            <p class="text-zinc-400 text-lg mb-8 leading-relaxed">I am a filmmaker and visual storyteller. I focus on the intersection of narrative depth and technical precision.</p>
+            <div class="grid grid-cols-2 gap-4">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400" class="rounded-xl grayscale hover:grayscale-0 transition">
+                <img src="https://images.unsplash.com/photo-1492691523567-6170c2485fa8?w=400" class="rounded-xl grayscale hover:grayscale-0 transition mt-6">
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+             <p class="text-[10px] tracking-[0.4em] text-zinc-600 mb-10">COLLABORATIONS</p>
+             <div class="grid grid-cols-2 gap-12 items-center">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" class="brand-logo">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="brand-logo">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" class="brand-logo">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" class="brand-logo">
+             </div>
+        </div>
+    </section>
+</body>
+</html>
